@@ -16,3 +16,15 @@
 - Každý `<li>` mal text o veľkosti 14px, ale .aktivna mala 20px.
 - Prvok s textom Toto je dôležitý odstavec mal bold písmo
 - BONUS: Zmeň pozadie pre každý druhý `<li>`
+
+## EN
+
+**URL** - https://jsfiddle.net/u6fymk0e/2/
+
+**Hint** - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators)
+- Element with `id="special"` should have text with red colour.
+- Every element with class `important` should have bold font and yellow background.
+- Inner `<p class="note">` should have grey background.
+- Every `<li>` should have font-size 14px, but `.active` mala 20px.
+- Element with text `This is an important paragraph` should have bold font
+- BONUS: Change background for every second `<li>`
