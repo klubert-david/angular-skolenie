@@ -4,7 +4,7 @@
 
 **Zadanie**
 
-- v priečinku `src/app/package` vygenerujte nový komponent `product-detail`
+- v priečinku `src/app/product` vygenerujte nový komponent `product-detail`
 - v šablóne z tohto nového komponentu zobrazte všetky údaje z produktu, ktoré máte v dispozícií - ľubovoľne aj s obrázkom
   - nezabudnite pridať tlačidlo späť na návrat na zoznam produktov
 - v priečinku `src/services` vygenerujte novú service `product`
