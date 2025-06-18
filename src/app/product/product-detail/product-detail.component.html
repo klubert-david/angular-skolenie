@@ -1,0 +1,11 @@
+<a routerLink="">⬅ Späť</a>
+
+<h1>Detail produktu #{{ product?.id }}</h1>
+<div>
+  <h2>{{ product?.title }}</h2>
+  <img [src]="product?.image" />
+  <p>Kategória: {{ product?.category }},</p>
+  <p>Cena: {{ product?.price }} &euro;</p>
+  <p>{{ product?.description }}</p>
+  <p>Hodnotenie: {{ product?.rating?.rate }} ({{ product?.rating?.count }})</p>
+</div>

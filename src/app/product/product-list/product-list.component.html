@@ -1,0 +1,13 @@
+<a routerLink="/cart">🛒 Košík</a>
+
+<app-product-item
+  [product]="this.productService.products[0]"
+></app-product-item>
+<app-product-item
+  [product]="this.productService.products[1]"
+></app-product-item>
+<app-product-item
+  [product]="this.productService.products[2]"
+></app-product-item>
+
+<div class="total-price">{{ totalPrice }} &euro;</div>
