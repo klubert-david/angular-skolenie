@@ -9,6 +9,7 @@
   - zmena navigácie `(navigate)` v `routeri` na stránku `/cart`
 - do šablóny `product-item` komponentu pridajte `<button>` s textom: `➕ Pridať do košíka` a klikom na `toCart()`
 - odstráňte nepotrebné testovacie plnenie `addToCart` v OnInit `product-listu`
+- odstráňte totalPrice z `product-list` komponentu a logiku presuňte do `cart-list`
 
 ## EN
 
@@ -19,3 +20,4 @@
   * Use the router’s `navigate` method to redirect to the `/cart` page
 * In the `product-item` component template, add a `<button>` with the text: `➕ Pridať do košíka` that calls `toCart()` on click
 * Remove the unnecessary test `addToCart` call from the `ngOnInit` method
+* Remove totalPrice from `product-list` component and add the same logic to the `cart-list`
